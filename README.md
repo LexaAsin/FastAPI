@@ -8,6 +8,10 @@
 -  FastAPI веб-интерфейс
 -  OAuth2 аутентификация с JWT токенами
 
+Установка зависимостей:
+bash
+pip install -r requirements.txt
+
 Запуск
 - uvicorn main:app --reload  # Лаба аутентификации
 - uvicorn app:api --reload   # Основной проект
